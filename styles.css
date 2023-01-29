@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+#gameContainer {
+  display: grid;
+  grid-template-columns: repeat(40, 10px);
+  grid-template-rows: repeat(40, 10px);
+}
+
+.pixel {
+  background-color: #ccc;
+  border: 1px solid #000;
+}
+
+.food {
+  background-color: red;
+}
+
+.snakeBodyPixel {
+  background-color: green;
+}
